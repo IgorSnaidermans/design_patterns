@@ -1,4 +1,4 @@
-package command;
+package behaviour.command;
 
 //Consumer creates an object that perform actions OR delegates the work to the producer.
 //Typically used for delegating the work.

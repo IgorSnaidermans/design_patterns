@@ -1,4 +1,4 @@
-package abstract_factory;
+package creation.abstract_factory;
 
 // Factory creates objects.
 

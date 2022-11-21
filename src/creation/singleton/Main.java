@@ -1,4 +1,4 @@
-package singleton;
+package creation.singleton;
 
 //Creates a single instance of a class and block future instancing.
 //May be used for configs.

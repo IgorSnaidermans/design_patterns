@@ -1,4 +1,4 @@
-package adapter;
+package structure.adapter;
 
 // Client needs Long, Service gives Integer.
 // Adapter covers Service, adapts the data and returns it in suitable for Client format.

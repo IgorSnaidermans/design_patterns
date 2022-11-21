@@ -1,4 +1,4 @@
-package facade;
+package structure.facade;
 
 // Systems with big API may be confusing for the client.
 // Client only want one feature.

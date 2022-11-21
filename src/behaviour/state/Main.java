@@ -1,6 +1,6 @@
-package state;
+package behaviour.state;
 
-// Adds a State object to the Client class which while executing may change the state to others.
+// Adds a State object to the Client class which while executing may change the behaviour.state to others.
 // Client class should not have State setter.
 
 public class Main {
@@ -33,13 +33,13 @@ class StateImpl_0 implements State {
 
     @Override
     public void execute() {
-        System.out.println("executing state 0. Switching to state 1.");
+        System.out.println("executing behaviour.state 0. Switching to behaviour.state 1.");
         stateClient.setState(new StateImpl_1(stateClient));
     }
 
     @Override
     public void printState() {
-        System.out.println("now state is set to 0");
+        System.out.println("now behaviour.state is set to 0");
     }
 }
 
@@ -53,13 +53,13 @@ class StateImpl_1 implements State{
 
     @Override
     public void execute() {
-        System.out.println("executing state 1. Switching to state 0.");
+        System.out.println("executing behaviour.state 1. Switching to behaviour.state 0.");
         stateClient.setState(new StateImpl_0(stateClient));
     }
 
     @Override
     public void printState() {
-        System.out.println("now state is set to 1");
+        System.out.println("now behaviour.state is set to 1");
     }
 }
 

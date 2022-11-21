@@ -1,4 +1,4 @@
-package decorator;
+package structure.decorator;
 
 // Extends functionality of a Parent Class without extending it.
 // Should be used when extending is not possible for some reason.

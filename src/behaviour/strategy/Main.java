@@ -1,4 +1,4 @@
-package strategy;
+package behaviour.strategy;
 
 // Adds a Strategy object for other logic.
 // Strategy should be set with setter in StrategyClient.
@@ -21,7 +21,7 @@ class StrategyImpl_0 implements Strategy{
 
     @Override
     public void execute() {
-        System.out.println("executing strategy 0");
+        System.out.println("executing behaviour.strategy 0");
     }
 }
 
@@ -29,7 +29,7 @@ class StrategyImpl_1 implements Strategy{
 
     @Override
     public void execute() {
-        System.out.println("executing strategy 1");
+        System.out.println("executing behaviour.strategy 1");
     }
 }
 

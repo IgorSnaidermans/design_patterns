@@ -1,10 +1,10 @@
-package flyweight;
+package structure.flyweight;
 
 import java.util.HashMap;
 
 // Creating a factory that stores object with static fields for future use for other objects.
-// Static object should have static fields that never changes (internal state).
-// Dynamic objects have various fields, static (internal state) and dynamic (external state).
+// Static object should have static fields that never changes (internal behaviour.state).
+// Dynamic objects have various fields, static (internal behaviour.state) and dynamic (external behaviour.state).
 
 // Resolves the problem where creating a dynamic objects with similar fields results in memory leak.
 // As all these similar fields are separate objects.
